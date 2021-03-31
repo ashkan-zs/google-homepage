@@ -1,2 +1,5 @@
-# google-homepage
-a copy of google home page
+# Google Homepage
+
+---
+
+this is a clone of google home page created by HTML and CSS.
