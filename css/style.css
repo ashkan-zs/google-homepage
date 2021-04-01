@@ -23,8 +23,11 @@ body {
 .menu_item {
     padding: 0 .5rem 0 .5rem;
     font-size: .8rem;
-    text-transform: capitalize;
     cursor: pointer;
+}
+
+.menu_item.link {
+    text-transform: capitalize;
 }
 
 .menu_item.menu_item.link {
@@ -46,6 +49,10 @@ body {
 
 .profile:hover {
     background-color: #e3e3e3;
+}
+
+.profile:hover .tooltip {
+    visibility: visible;
 }
 
 .profile img {
@@ -70,4 +77,33 @@ body {
 
 .apps_icon:hover {
     background-color: #e3e3e3;
+}
+
+.apps_icon:hover .tooltip {
+    visibility: visible;
+}
+
+.tooltip {
+    position: absolute;
+    top: 62px;
+    background-color: rgb(51, 51, 51, .85);
+    color: #fff;
+    border-radius: .4rem;
+    padding: .5rem;
+    font-size: .7rem;
+    visibility: hidden;
+    transition: visibility .01s .3s;
+}
+
+.tooltip .detail {
+    color: #a1a3a3;
+}
+
+.profile .tooltip {
+    right: 10px;
+    line-height: 1rem;
+}
+
+.apps_icon .tooltip {
+    right: 60px;
 }
