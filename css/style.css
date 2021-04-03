@@ -4,6 +4,7 @@
 
 body {
     font-family: arial, sans-serif;
+    font-size: 14px;
     margin: 0;
 }
 
@@ -106,4 +107,56 @@ body {
 
 .apps_icon .tooltip {
     right: 60px;
+}
+
+.logo img {
+    display: block;
+    margin: auto;
+}
+
+.search_area {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search_box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45%;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    height: 44px;
+    margin-top: 2rem;
+}
+
+.search_box:hover {
+    border: none;
+    box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
+}
+
+.search_box svg {
+    width: 20px;
+}
+
+.search_box input {
+    width: 85%;
+    height: 34px;
+    border: none;
+    font-size: 16px;
+    outline: none;
+}
+
+.search_box .search_btn {
+    display: flex;
+    align-items: center;
+    fill: #949494;
+    padding-right: 14px;
+}
+
+.search_box .mic_btn {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
 }
