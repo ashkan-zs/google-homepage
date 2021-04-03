@@ -208,6 +208,7 @@ body {
 
 .footer .item:hover {
     text-decoration: underline;
+    cursor: pointer;
 }
 
 .right {
